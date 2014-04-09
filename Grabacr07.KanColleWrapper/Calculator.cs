@@ -20,7 +20,7 @@ namespace Grabacr07.KanColleWrapper
 			if (slotItem.Info.IsAircraft || slotItem.Info.IsSeaplane)
 			{
 				return (int)(slotItem.Info.AA * Math.Sqrt(onslot));
-			}
+			} 
 
 			return 0;
 		}
